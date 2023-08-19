@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(neom-s3leOixsIX0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+h2{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 15px;
+}
+.Container-cover div{
+    margin: 25px;
+}
+.Container-cover{
+    display: flex;
+}
+.Container-cover span{
+    display: flex;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgb(117, 117, 117);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 1px 4px beige;
+    
+}
+
+.time-frame {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  opacity: .8;
+  box-shadow: 4px 1px 4px beige;
+}
